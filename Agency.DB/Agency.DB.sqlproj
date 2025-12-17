@@ -57,12 +57,17 @@
   <ItemGroup>
     <Folder Include="Properties" />
     <Folder Include="Table" />
+    <Folder Include="Trigger" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Table\Destinations.sql" />
     <Build Include="Table\Activities.sql" />
     <Build Include="Table\Reservations.sql" />
     <Build Include="Table\Employees.sql" />
+    <Build Include="Trigger\TriggerDeleteEmployee.sql" />
+    <Build Include="Trigger\TriggerDeleteDestinations.sql" />
+    <Build Include="Trigger\TriggerDeleteActivities.sql" />
+    <Build Include="Trigger\TriggerDeleteReservations.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="Agency.DB.refactorlog" />

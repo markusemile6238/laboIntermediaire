@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36616.10 d17.14
+VisualStudioVersion = 17.14.36616.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Agency.DB", "Agency.DB.sqlproj", "{4649AA4D-BE3D-4214-ABDE-38CFEECAFD15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Agency.Domaine", "..\Agency.Domaine\Agency.Domaine.csproj", "{0283108C-81FE-4AA6-912E-BC14A56A6040}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,6 +19,10 @@ Global
 		{4649AA4D-BE3D-4214-ABDE-38CFEECAFD15}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4649AA4D-BE3D-4214-ABDE-38CFEECAFD15}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4649AA4D-BE3D-4214-ABDE-38CFEECAFD15}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{0283108C-81FE-4AA6-912E-BC14A56A6040}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0283108C-81FE-4AA6-912E-BC14A56A6040}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0283108C-81FE-4AA6-912E-BC14A56A6040}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0283108C-81FE-4AA6-912E-BC14A56A6040}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

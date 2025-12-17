@@ -6,6 +6,10 @@
     [Email] NVARCHAR(150) NOT NULL,
     [Password] NVARCHAR(150) NOT NULL, 
     [EmployeeCode] UNIQUEIDENTIFIER NOT NULL, 
+        -- management
+    [IsEnable] BIT  DEFAULT 1 NOT NULL,
+    [CreatedAt] DATETIME DEFAULT GETDATE() NOT NULL,
+    [UpdatedAt] DATETIME NULL
     --constraint
     CONSTRAINT [PK_Employees] PRIMARY KEY (Id),
     CONSTRAINT [UK_Employees_Email] UNIQUE (Email),
