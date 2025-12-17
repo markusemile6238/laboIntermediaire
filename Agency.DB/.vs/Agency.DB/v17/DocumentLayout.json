@@ -1,14 +1,51 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\formation\\labo intermediaire\\laboIntermediaire\\Agency.DB\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3A3E4EA8-E2BE-4878-A546-E31A00921298}|..\\Agency.API\\Agency.API.csproj|c:\\formation\\labo intermediaire\\labointermediaire\\agency.api\\controllers\\destinationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{072EE9AE-1488-49B1-852B-567F9A8895BE}|..\\Agency.DAL\\Agency.DAL.csproj|c:\\formation\\labo intermediaire\\labointermediaire\\agency.dal\\exceptiondal\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{072EE9AE-1488-49B1-852B-567F9A8895BE}|..\\Agency.DAL\\Agency.DAL.csproj|c:\\formation\\labo intermediaire\\labointermediaire\\agency.dal\\repositories\\destinationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A3E4EA8-E2BE-4878-A546-E31A00921298}|..\\Agency.API\\Agency.API.csproj|c:\\formation\\labo intermediaire\\labointermediaire\\agency.api\\dtos\\destinationdtos\\destinationdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A3E4EA8-E2BE-4878-A546-E31A00921298}|..\\Agency.API\\Agency.API.csproj|c:\\formation\\labo intermediaire\\labointermediaire\\agency.api\\dtos\\destinationdtos\\destinationlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0283108C-81FE-4AA6-912E-BC14A56A6040}|..\\Agency.Domaine\\Agency.Domaine.csproj|c:\\formation\\labo intermediaire\\labointermediaire\\agency.domaine\\entities\\destination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2279D1C-800D-4AF7-9E96-2833DBED7CF2}|..\\Agency.BLL\\Agency.BLL.csproj|c:\\formation\\labo intermediaire\\labointermediaire\\agency.bll\\services\\destinationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2279D1C-800D-4AF7-9E96-2833DBED7CF2}|..\\Agency.BLL\\Agency.BLL.csproj|c:\\formation\\labo intermediaire\\labointermediaire\\agency.bll\\services\\idestinationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{072EE9AE-1488-49B1-852B-567F9A8895BE}|..\\Agency.DAL\\Agency.DAL.csproj|c:\\formation\\labo intermediaire\\labointermediaire\\agency.dal\\exceptiondal\\duplicateentryexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{072EE9AE-1488-49B1-852B-567F9A8895BE}|..\\Agency.DAL\\Agency.DAL.csproj|c:\\formation\\labo intermediaire\\labointermediaire\\agency.dal\\database\\dbcommandfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0283108C-81FE-4AA6-912E-BC14A56A6040}|..\\Agency.Domaine\\Agency.Domaine.csproj|c:\\formation\\labo intermediaire\\labointermediaire\\agency.domaine\\repositories\\idestinationrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A3E4EA8-E2BE-4878-A546-E31A00921298}|..\\Agency.API\\Agency.API.csproj|c:\\formation\\labo intermediaire\\labointermediaire\\agency.api\\dtos\\destinationdtos\\destinationcreatenewone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 325,
+          "DockedHeight": 266,
           "SelectedChildIndex": -1,
           "Children": [
             {
@@ -18,6 +55,172 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 188,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IDestinationService.cs",
+              "DocumentMoniker": "C:\\formation\\labo intermediaire\\laboIntermediaire\\Agency.BLL\\Services\\IDestinationService.cs",
+              "RelativeDocumentMoniker": "..\\Agency.BLL\\Services\\IDestinationService.cs",
+              "ToolTip": "C:\\formation\\labo intermediaire\\laboIntermediaire\\Agency.BLL\\Services\\IDestinationService.cs",
+              "RelativeToolTip": "..\\Agency.BLL\\Services\\IDestinationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T17:59:06.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DestinationService.cs",
+              "DocumentMoniker": "C:\\formation\\labo intermediaire\\laboIntermediaire\\Agency.BLL\\Services\\DestinationService.cs",
+              "RelativeDocumentMoniker": "..\\Agency.BLL\\Services\\DestinationService.cs",
+              "ToolTip": "C:\\formation\\labo intermediaire\\laboIntermediaire\\Agency.BLL\\Services\\DestinationService.cs",
+              "RelativeToolTip": "..\\Agency.BLL\\Services\\DestinationService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAkwFsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T17:59:07.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Destination.cs",
+              "DocumentMoniker": "C:\\formation\\labo intermediaire\\laboIntermediaire\\Agency.Domaine\\Entities\\Destination.cs",
+              "RelativeDocumentMoniker": "..\\Agency.Domaine\\Entities\\Destination.cs",
+              "ToolTip": "C:\\formation\\labo intermediaire\\laboIntermediaire\\Agency.Domaine\\Entities\\Destination.cs",
+              "RelativeToolTip": "..\\Agency.Domaine\\Entities\\Destination.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T18:11:54.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DestinationList.cs",
+              "DocumentMoniker": "C:\\formation\\labo intermediaire\\laboIntermediaire\\Agency.API\\Dtos\\DestinationDtos\\DestinationList.cs",
+              "RelativeDocumentMoniker": "..\\Agency.API\\Dtos\\DestinationDtos\\DestinationList.cs",
+              "ToolTip": "C:\\formation\\labo intermediaire\\laboIntermediaire\\Agency.API\\Dtos\\DestinationDtos\\DestinationList.cs",
+              "RelativeToolTip": "..\\Agency.API\\Dtos\\DestinationDtos\\DestinationList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T18:10:05.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DestinationController.cs",
+              "DocumentMoniker": "C:\\formation\\labo intermediaire\\laboIntermediaire\\Agency.API\\Controllers\\DestinationController.cs",
+              "RelativeDocumentMoniker": "..\\Agency.API\\Controllers\\DestinationController.cs",
+              "ToolTip": "C:\\formation\\labo intermediaire\\laboIntermediaire\\Agency.API\\Controllers\\DestinationController.cs",
+              "RelativeToolTip": "..\\Agency.API\\Controllers\\DestinationController.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAmwFsAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T18:05:14.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NotFoundException.cs",
+              "DocumentMoniker": "C:\\formation\\labo intermediaire\\laboIntermediaire\\Agency.DAL\\ExceptionDAL\\NotFoundException.cs",
+              "RelativeDocumentMoniker": "..\\Agency.DAL\\ExceptionDAL\\NotFoundException.cs",
+              "ToolTip": "C:\\formation\\labo intermediaire\\laboIntermediaire\\Agency.DAL\\ExceptionDAL\\NotFoundException.cs",
+              "RelativeToolTip": "..\\Agency.DAL\\ExceptionDAL\\NotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T19:42:34.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DestinationRepository.cs",
+              "DocumentMoniker": "C:\\formation\\labo intermediaire\\laboIntermediaire\\Agency.DAL\\Repositories\\DestinationRepository.cs",
+              "RelativeDocumentMoniker": "..\\Agency.DAL\\Repositories\\DestinationRepository.cs",
+              "ToolTip": "C:\\formation\\labo intermediaire\\laboIntermediaire\\Agency.DAL\\Repositories\\DestinationRepository.cs",
+              "RelativeToolTip": "..\\Agency.DAL\\Repositories\\DestinationRepository.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAcwDgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T18:02:51.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DestinationDetails.cs",
+              "DocumentMoniker": "C:\\formation\\labo intermediaire\\laboIntermediaire\\Agency.API\\Dtos\\DestinationDtos\\DestinationDetails.cs",
+              "RelativeDocumentMoniker": "..\\Agency.API\\Dtos\\DestinationDtos\\DestinationDetails.cs",
+              "ToolTip": "C:\\formation\\labo intermediaire\\laboIntermediaire\\Agency.API\\Dtos\\DestinationDtos\\DestinationDetails.cs",
+              "RelativeToolTip": "..\\Agency.API\\Dtos\\DestinationDtos\\DestinationDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T19:08:27.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DuplicateEntryException.cs",
+              "DocumentMoniker": "C:\\formation\\labo intermediaire\\laboIntermediaire\\Agency.DAL\\ExceptionDAL\\DuplicateEntryException.cs",
+              "RelativeDocumentMoniker": "..\\Agency.DAL\\ExceptionDAL\\DuplicateEntryException.cs",
+              "ToolTip": "C:\\formation\\labo intermediaire\\laboIntermediaire\\Agency.DAL\\ExceptionDAL\\DuplicateEntryException.cs",
+              "RelativeToolTip": "..\\Agency.DAL\\ExceptionDAL\\DuplicateEntryException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T18:39:16.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DbCommandFactory.cs",
+              "DocumentMoniker": "C:\\formation\\labo intermediaire\\laboIntermediaire\\Agency.DAL\\Database\\DbCommandFactory.cs",
+              "RelativeDocumentMoniker": "..\\Agency.DAL\\Database\\DbCommandFactory.cs",
+              "ToolTip": "C:\\formation\\labo intermediaire\\laboIntermediaire\\Agency.DAL\\Database\\DbCommandFactory.cs",
+              "RelativeToolTip": "..\\Agency.DAL\\Database\\DbCommandFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T18:33:32.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IDestinationRepo.cs",
+              "DocumentMoniker": "C:\\formation\\labo intermediaire\\laboIntermediaire\\Agency.Domaine\\Repositories\\IDestinationRepo.cs",
+              "RelativeDocumentMoniker": "..\\Agency.Domaine\\Repositories\\IDestinationRepo.cs",
+              "ToolTip": "C:\\formation\\labo intermediaire\\laboIntermediaire\\Agency.Domaine\\Repositories\\IDestinationRepo.cs",
+              "RelativeToolTip": "..\\Agency.Domaine\\Repositories\\IDestinationRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T18:03:03.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DestinationCreateNewOne.cs",
+              "DocumentMoniker": "C:\\formation\\labo intermediaire\\laboIntermediaire\\Agency.API\\Dtos\\DestinationDtos\\DestinationCreateNewOne.cs",
+              "RelativeDocumentMoniker": "..\\Agency.API\\Dtos\\DestinationDtos\\DestinationCreateNewOne.cs",
+              "ToolTip": "C:\\formation\\labo intermediaire\\laboIntermediaire\\Agency.API\\Dtos\\DestinationDtos\\DestinationCreateNewOne.cs",
+              "RelativeToolTip": "..\\Agency.API\\Dtos\\DestinationDtos\\DestinationCreateNewOne.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T18:10:08.87Z",
+              "EditorCaption": ""
             }
           ]
         }
