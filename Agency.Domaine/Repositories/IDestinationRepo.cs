@@ -7,20 +7,11 @@ using System.Threading.Tasks;
 
 namespace Agency.Domaine.Repositories
 {
-    public interface IDestinationRepo
+    public interface IDestinationRepo : IRepoBase<Destination,int>
     {
         // READ
-        Task<IEnumerable<Destination>> GetAsync();
-        Task<Destination>? GetByIdAsync(int id);
         Task<Destination>? FindByKeyword(string keyword);
-        
-
-        //WRITE
-        Task<Destination> CreateAsync(Destination destination);
-        Task<Destination> UpdateAsync(Destination destination);
-
-        //DELETE
-        Task<int> DeleteAsync(int id);
+       
         
     }
 }

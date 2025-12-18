@@ -9,6 +9,6 @@
     [CreatedAt] DATETIME DEFAULT GETDATE() NOT NULL,
     [UpdatedAt] DATETIME NULL
     -- constraints ,
-    CONSTRAINT [PU_Destinations] UNIQUE (City)
+    CONSTRAINT [PU_Destinations] UNIQUE (Country,City)
 
 )

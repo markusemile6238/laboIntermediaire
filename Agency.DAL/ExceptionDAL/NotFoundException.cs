@@ -12,7 +12,7 @@ namespace Agency.DAL.ExceptionDAL
         public String EntityId { get; }
 
         public NotFoundException(string entityName, string entityId)
-            : base($"{entityName} avec Id:{entityId} non trouvé(e).")
+            : base($"Pas de {entityName} trouvé(e) ! Details : Id:{entityId}.")
         {
             EntityName = entityName;
             EntityId = entityId;

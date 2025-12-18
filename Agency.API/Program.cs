@@ -50,9 +50,11 @@ builder.Services.AddScoped<IDbCommandFactory, DbCommandFactory>();
 
 // DALL
 builder.Services.AddScoped<IDestinationRepo, DestinationRepository>();
+builder.Services.AddScoped<IActivityRepo, ActivityRepository>();
 
 //BLL
 builder.Services.AddScoped<IDestinationService, DestinationService>();
+builder.Services.AddScoped<IActivityService,ActivityService>();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -94,6 +96,7 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+// pour tester mes probleme de connection made in web
 app.UseMiddleware<DiTestMiddleware>();
 
 

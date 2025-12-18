@@ -7,16 +7,8 @@ using System.Threading.Tasks;
 
 namespace Agency.BLL.Services
 {
-    public interface IDestinationService
+    public interface IDestinationService : IBaseService<Destination, int>
     {
-
-        //READ
-        Task<IEnumerable<Destination>> GetAsync();
-        Task<Destination>? GetByIdAsyn(int id);
-
-
-        // CREATE
-        Task<Destination> CreateAsync(Destination destination);
 
     }
 }

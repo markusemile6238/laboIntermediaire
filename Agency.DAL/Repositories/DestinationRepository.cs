@@ -160,9 +160,42 @@ namespace Agency.DAL.Repositories
         #endregion
 
         #region DELETEASYNC
-        public Task<int> DeleteAsync(int id)
+        public async Task<int> DeleteAsync(int id)
         {
-            throw new NotImplementedException();
+            if(id == 0) throw new ArgumentNullException("id");
+            string sql = @"DELETE FROM Destinations WHERE id = @Id";
+
+            try
+            {
+                using var connection = _connection.CreateConnection();
+                var Paramaters = new[]
+                {
+                    new SqlParameter("@Id",id)
+                };
+                using var command = _command.CreateParameterizedCommand(sql, connection,Paramaters);
+                var isDeleted = await command.ExecuteNonQueryAsync();
+               if(isDeleted == 1)
+                {
+                    return 1;
+                }
+                else
+                {
+                    string i = id.ToString();
+                    throw new NotFoundException("Destinations",i);
+                }
+
+   
+            
+                    
+            }catch(SqlException ex)
+            {
+                throw new Exception($"Exception sql {ex}");
+            }catch(Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+            
+
         }
         #endregion
 

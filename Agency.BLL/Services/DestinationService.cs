@@ -47,6 +47,8 @@ namespace Agency.BLL.Services
                 throw new Exception("Erreur lors de la création de la destination", ex);
             }
         }
+
+       
         #endregion
 
         #region GETASYNC
@@ -85,7 +87,19 @@ namespace Agency.BLL.Services
             {
                 throw;
             }
+        }
+        #endregion
+
+
+        #region DELETE ASYNC
+        public Task<int> DeleteAsynch(int id)
+        {
+            if (id < 0) throw new InvalidOperationException(nameof(id));
+
+            return _repo.DeleteAsync(id);
+
         } 
         #endregion
+
     }
 }
