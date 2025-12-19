@@ -19,7 +19,8 @@ namespace Agency.DAL.Mapper
                id: (int)reader["Id"],
                country: (string)reader["Country"],
                city: (string)reader["City"],
-               description:(string)reader["Description"]
+               description:(string)reader["Description"],
+               imageUrl : (string)reader["ImageUrl"]
                 );
             if (reader.HasColumn("ActivityCount"))
             {

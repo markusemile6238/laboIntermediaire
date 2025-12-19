@@ -29,7 +29,7 @@ namespace Agency.DAL.Repositories
             List<Destination> destinations = new List<Destination>();
 
 
-            string sql = @"SELECT d.Id,d.Country,d.City,d.Description,d.IsEnable,d.CreatedAt,d.UpdatedAt,COUNT(a.Id) AS ActivityCount FROM Destinations d LEFT JOIN Activities a ON d.Id = a.DestinationId WHERE d.IsEnable = 1 GROUP BY d.Id,d.Country,d.City,d.Description,d.IsEnable,d.CreatedAt,d.UpdatedAt ORDER BY d.Country,d.City";
+            string sql = @"SELECT d.Id,d.Country,d.City,d.Description,d.ImageUrl,d.IsEnable,d.CreatedAt,d.UpdatedAt,COUNT(a.Id) AS ActivityCount FROM Destinations d LEFT JOIN Activities a ON d.Id = a.DestinationId WHERE d.IsEnable = 1 GROUP BY d.Id,d.Country,d.City,d.Description,d.ImageUrl,d.IsEnable,d.CreatedAt,d.UpdatedAt ORDER BY d.Country,d.City";
             try
             {
                 using var connection = _connection.CreateConnection();
@@ -63,7 +63,7 @@ namespace Agency.DAL.Repositories
             try
             {
 
-                string sql = "SELECT d.Id,d.Country,d.City,d.Description,d.IsEnable,d.CreatedAt,d.UpdatedAt,COUNT(a.Id) AS ActivityCount FROM Destinations d LEFT JOIN Activities a ON d.Id = a.DestinationId WHERE d.Id = @Id AND d.IsEnable = 1 GROUP BY d.Id,d.Country,d.City,d.Description,d.IsEnable,d.CreatedAt,d.UpdatedAt ORDER BY d.Country,d.City";
+                string sql = "SELECT d.Id,d.Country,d.City,d.Description,d.ImageUrl,d.IsEnable,d.CreatedAt,d.UpdatedAt,COUNT(a.Id) AS ActivityCount FROM Destinations d LEFT JOIN Activities a ON d.Id = a.DestinationId WHERE d.Id = @Id AND d.IsEnable = 1 GROUP BY d.Id,d.Country,d.City,d.Description,d.ImageUrl,d.IsEnable,d.CreatedAt,d.UpdatedAt ORDER BY d.Country,d.City";
 
                 using var connection = _connection.CreateConnection();
 
@@ -111,13 +111,14 @@ namespace Agency.DAL.Repositories
         #region CREATEASYNC
         public async Task<Destination> CreateAsync(Destination destination)
         {
-            string sql = @"INSERT INTO Destinations (Country,City,Description) OUTPUT INSERTED.* VALUES(@Country,@City,@Description)";
+            string sql = @"INSERT INTO Destinations (Country,City,Description,ImageUrl) OUTPUT INSERTED.* VALUES(@Country,@City,@Description,@ImageUrl)";
 
             var parameters = new[]
             {
                 new SqlParameter("@Country",destination.Country),
                 new SqlParameter("@City",destination.City),
-                new SqlParameter("@description",destination.Description)
+                new SqlParameter("@Description",destination.Description),
+                new SqlParameter("@ImageUrl",destination.ImageUrl),
             };
             try
             {

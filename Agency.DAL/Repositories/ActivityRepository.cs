@@ -30,7 +30,7 @@ namespace Agency.DAL.Repositories
             if (activity is null)
                 throw new ArgumentNullException(nameof(activity));
 
-            string sql = @"INSERT INTO Activities (Name,Description,Price,DestinationId) OUTPUT INSERTED.* VALUES (@Name,@Description,@Price,@DestinationId)";
+            string sql = @"INSERT INTO Activities (Name,Description,Price,DestinationId,ImageUrl) OUTPUT INSERTED.* VALUES (@Name,@Description,@Price,@DestinationId,@ImageUrl)";
 
             try
             {
@@ -39,7 +39,8 @@ namespace Agency.DAL.Repositories
                 new SqlParameter("@Name",activity.Name),
                 new SqlParameter("@Description",activity.Description),
                 new SqlParameter("@Price",activity.Price),
-                new SqlParameter("@DestinationId",activity.DestinationId)
+                new SqlParameter("@DestinationId",activity.DestinationId),
+                new SqlParameter("@ImageUrl",activity.ImageUrl)
                     };
 
                 using var connection = _connection.CreateConnection();
@@ -85,11 +86,11 @@ namespace Agency.DAL.Repositories
         {
             List<Activity> activities = new List<Activity>();
 
-            string sql = @"SELECT a.Id,a.Name,a.Description,a.Price,a.DestinationId,a.CreatedAt,a.UpdatedAt,d.Country as CountryName 
+            string sql = @"SELECT a.Id,a.Name,a.Description,a.Price,a.DestinationId,a.ImageUrl,a.CreatedAt,a.UpdatedAt,d.Country as CountryName 
                             FROM Activities a 
                             LEFT JOIN Destinations d ON a.DestinationId = d.Id AND d.IsEnable = 1
                             WHERE a.IsEnable = 1  
-                            GROUP BY a.Id,a.Name,a.Description,a.Price,a.DestinationId,a.CreatedAt,a.UpdatedAt,d.Country 
+                            GROUP BY a.Id,a.Name,a.Description,a.Price,a.DestinationId,a.ImageUrl,a.CreatedAt,a.UpdatedAt,d.Country 
                             ORDER BY d.Country";
 
             try

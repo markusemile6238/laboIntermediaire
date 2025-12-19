@@ -11,7 +11,8 @@ namespace Agency.API.Mapping
                 name:dto.Name,
                 description:dto.Description,
                 price:dto.Price,
-                destinationId:dto.DestinationId
+                destinationId:dto.DestinationId,
+                imageUrl:dto.ImageUrl
                 );
      
         }

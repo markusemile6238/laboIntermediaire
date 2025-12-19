@@ -18,7 +18,8 @@ namespace Agency.DAL.Mapper
                 name: (string)reader["Name"],
                 description:(string)reader["Description"],
                 price: (double)reader["Price"],
-                destinationId: (int)reader["DestinationId"]               
+                destinationId: (int)reader["DestinationId"],
+                imageUrl: (string)reader["ImageUrl"]
                 );
             if (reader.HasColumn("CountryName"))
             {

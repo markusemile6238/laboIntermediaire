@@ -5,6 +5,7 @@
     [Description] NVARCHAR(max) NOT NULL, 
     [Price] FLOAT NOT NULL, 
     [DestinationId] INT NULL,
+    [ImageUrl] NVARCHAR(max) null,
     -- management
     [IsEnable] BIT  DEFAULT 1 NOT NULL,
     [CreatedAt] DATETIME DEFAULT GETDATE() NOT NULL,

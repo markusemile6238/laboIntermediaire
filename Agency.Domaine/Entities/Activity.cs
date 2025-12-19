@@ -7,7 +7,7 @@
         }
 
         // constructeur pour la dal
-        public Activity(int id,string name, string description, double price, int destinationId)
+        public Activity(int id,string name, string description, double price, int destinationId, string? imageUrl=null)
         {
             Id = id;
             Name = name;
@@ -17,10 +17,11 @@
             IsEnable = true;
             CreatedAt = DateTime.Now;
             UpdatedAt = null;
+            ImageUrl = imageUrl;
         }
 
         // constructeur pour la bll
-        public Activity( string name, string description, double price, int destinationId)
+        public Activity( string name, string description, double price, int destinationId, string? imageUrl = null)
         {
             Name = name;
             Description = description;
@@ -29,6 +30,7 @@
             IsEnable = true;
             CreatedAt = DateTime.Now;
             UpdatedAt = null;
+            ImageUrl = imageUrl;
         }
 
 
@@ -41,6 +43,7 @@
         public string Description { get; private set; }
         public double Price { get; private set; }
         public int DestinationId { get; private set; }
+        public string? ImageUrl { get; private set; }
 
         public Destination destination { get; private set; }
 
@@ -66,6 +69,10 @@
         public void ChangePrice(double price)
         {
             Price = price;
+        }
+        public void SetImage(string imageUrl)
+        {
+            ImageUrl= imageUrl;
         }
 
 

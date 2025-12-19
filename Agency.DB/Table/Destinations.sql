@@ -4,6 +4,7 @@
     [Country] NVARCHAR(80) NOT NULL, 
     [City] NVARCHAR(80) NOT NULL, 
     [Description]  NVARCHAR(max) NOT NULL,
+    [ImageUrl] NVARCHAR(max) null,
         -- management
     [IsEnable] BIT  DEFAULT 1 NOT NULL,
     [CreatedAt] DATETIME DEFAULT GETDATE() NOT NULL,

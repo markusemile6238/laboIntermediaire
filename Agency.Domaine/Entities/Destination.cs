@@ -17,6 +17,7 @@ namespace Agency.Domaine.Entities
         public string Country { get; private set; }
         public string City { get; private set; }
         public string Description { get; private set; }
+        public string? ImageUrl { get; private set; }
 
         public int ActivityCount { get; private set; } // pour calculer le nombre d'eexcursion par destination
         
@@ -25,7 +26,7 @@ namespace Agency.Domaine.Entities
 
 
         // constructeur pour BLL
-        public Destination(string country, string city, string description) 
+        public Destination(string country, string city, string description,string? imageUrl=null) 
         {
             Country = country;
             City = city;
@@ -33,9 +34,10 @@ namespace Agency.Domaine.Entities
             IsEnable = true;
             CreatedAt = DateTime.Now;
             UpdatedAt = null;
+            ImageUrl = imageUrl;
         }
         // pour mappage-DAL
-        public Destination(int id,string country, string city, string description) 
+        public Destination(int id,string country, string city, string description, string? imageUrl = null) 
         {
             Id = id;
             Country = country;
@@ -44,6 +46,7 @@ namespace Agency.Domaine.Entities
             IsEnable = true;
             CreatedAt = DateTime.Now;
             UpdatedAt = null;
+            ImageUrl = imageUrl;
         }
 
         // methode metier
@@ -79,5 +82,9 @@ namespace Agency.Domaine.Entities
             ActivityCount = activityCount;
         }
 
+        public void SetImage(string imageUrl)
+        {
+            ImageUrl = imageUrl;
+        }
     }
 }
