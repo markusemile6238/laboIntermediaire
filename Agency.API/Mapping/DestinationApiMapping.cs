@@ -12,7 +12,8 @@ namespace Agency.API.Mapping
 
                 country : dto.Country,
                 city : dto.City,
-                description : dto.Description
+                description : dto.Description,
+                imageUrl:dto.ImageUrl
                 );
         }
     }

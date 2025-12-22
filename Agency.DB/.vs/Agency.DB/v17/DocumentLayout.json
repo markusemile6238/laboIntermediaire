@@ -1,12 +1,39 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\formations\\technofutur\\LABO\\INTERMEDIAIRE\\laboIntermediaire\\Agency.DB\\",
+  "WorkspaceRootPath": "C:\\Users\\e.markus\\source\\repos\\LABOS\\laboIntermediaire\\Agency.DB\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3A3E4EA8-E2BE-4878-A546-E31A00921298}|..\\Agency.API\\Agency.API.csproj|c:\\formations\\technofutur\\labo\\intermediaire\\labointermediaire\\agency.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3A3E4EA8-E2BE-4878-A546-E31A00921298}|..\\Agency.API\\Agency.API.csproj|c:\\users\\e.markus\\source\\repos\\labos\\labointermediaire\\agency.api\\mapping\\destinationapimapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A3E4EA8-E2BE-4878-A546-E31A00921298}|..\\Agency.API\\Agency.API.csproj|c:\\formations\\technofutur\\labo\\intermediaire\\labointermediaire\\agency.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{3A3E4EA8-E2BE-4878-A546-E31A00921298}|..\\Agency.API\\Agency.API.csproj|c:\\users\\e.markus\\source\\repos\\labos\\labointermediaire\\agency.api\\controllers\\destinationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A3E4EA8-E2BE-4878-A546-E31A00921298}|..\\Agency.API\\Agency.API.csproj|c:\\users\\e.markus\\source\\repos\\labos\\labointermediaire\\agency.api\\dtos\\destinationdtos\\destinationcreatenewone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{072EE9AE-1488-49B1-852B-567F9A8895BE}|..\\Agency.DAL\\Agency.DAL.csproj|c:\\users\\e.markus\\source\\repos\\labos\\labointermediaire\\agency.dal\\repositories\\destinationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{072EE9AE-1488-49B1-852B-567F9A8895BE}|..\\Agency.DAL\\Agency.DAL.csproj|c:\\users\\e.markus\\source\\repos\\labos\\labointermediaire\\agency.dal\\repositories\\activityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0283108C-81FE-4AA6-912E-BC14A56A6040}|..\\Agency.Domaine\\Agency.Domaine.csproj|c:\\users\\e.markus\\source\\repos\\labos\\labointermediaire\\agency.domaine\\entities\\destination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2279D1C-800D-4AF7-9E96-2833DBED7CF2}|..\\Agency.BLL\\Agency.BLL.csproj|c:\\users\\e.markus\\source\\repos\\labos\\labointermediaire\\agency.bll\\services\\destinationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2279D1C-800D-4AF7-9E96-2833DBED7CF2}|..\\Agency.BLL\\Agency.BLL.csproj|c:\\users\\e.markus\\source\\repos\\labos\\labointermediaire\\agency.bll\\services\\idestinationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A3E4EA8-E2BE-4878-A546-E31A00921298}|..\\Agency.API\\Agency.API.csproj|c:\\users\\e.markus\\source\\repos\\labos\\labointermediaire\\agency.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\formations\\technofutur\\LABO\\INTERMEDIAIRE\\laboIntermediaire\\Agency.API\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\formations\\technofutur\\LABO\\INTERMEDIAIRE\\laboIntermediaire\\Agency.API\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,28 +56,142 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\formations\\technofutur\\LABO\\INTERMEDIAIRE\\laboIntermediaire\\Agency.API\\Program.cs",
-              "RelativeDocumentMoniker": "..\\Agency.API\\Program.cs",
-              "ToolTip": "C:\\formations\\technofutur\\LABO\\INTERMEDIAIRE\\laboIntermediaire\\Agency.API\\Program.cs",
-              "RelativeToolTip": "..\\Agency.API\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAsAAAAAAAAAA==",
+              "Title": "DestinationApiMapping.cs",
+              "DocumentMoniker": "C:\\Users\\e.markus\\source\\repos\\LABOS\\laboIntermediaire\\Agency.API\\Mapping\\DestinationApiMapping.cs",
+              "RelativeDocumentMoniker": "..\\Agency.API\\Mapping\\DestinationApiMapping.cs",
+              "ToolTip": "C:\\Users\\e.markus\\source\\repos\\LABOS\\laboIntermediaire\\Agency.API\\Mapping\\DestinationApiMapping.cs",
+              "RelativeToolTip": "..\\Agency.API\\Mapping\\DestinationApiMapping.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T20:07:00.832Z",
+              "WhenOpened": "2025-12-19T13:33:41.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ActivityRepository.cs",
+              "DocumentMoniker": "C:\\Users\\e.markus\\source\\repos\\LABOS\\laboIntermediaire\\Agency.DAL\\Repositories\\ActivityRepository.cs",
+              "RelativeDocumentMoniker": "..\\Agency.DAL\\Repositories\\ActivityRepository.cs",
+              "ToolTip": "C:\\Users\\e.markus\\source\\repos\\LABOS\\laboIntermediaire\\Agency.DAL\\Repositories\\ActivityRepository.cs",
+              "RelativeToolTip": "..\\Agency.DAL\\Repositories\\ActivityRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T13:32:19.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Destination.cs",
+              "DocumentMoniker": "C:\\Users\\e.markus\\source\\repos\\LABOS\\laboIntermediaire\\Agency.Domaine\\Entities\\Destination.cs",
+              "RelativeDocumentMoniker": "..\\Agency.Domaine\\Entities\\Destination.cs",
+              "ToolTip": "C:\\Users\\e.markus\\source\\repos\\LABOS\\laboIntermediaire\\Agency.Domaine\\Entities\\Destination.cs",
+              "RelativeToolTip": "..\\Agency.Domaine\\Entities\\Destination.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T13:28:23.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DestinationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\e.markus\\source\\repos\\LABOS\\laboIntermediaire\\Agency.DAL\\Repositories\\DestinationRepository.cs",
+              "RelativeDocumentMoniker": "..\\Agency.DAL\\Repositories\\DestinationRepository.cs",
+              "ToolTip": "C:\\Users\\e.markus\\source\\repos\\LABOS\\laboIntermediaire\\Agency.DAL\\Repositories\\DestinationRepository.cs",
+              "RelativeToolTip": "..\\Agency.DAL\\Repositories\\DestinationRepository.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAHIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T13:27:48.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DestinationCreateNewOne.cs",
+              "DocumentMoniker": "C:\\Users\\e.markus\\source\\repos\\LABOS\\laboIntermediaire\\Agency.API\\Dtos\\DestinationDtos\\DestinationCreateNewOne.cs",
+              "RelativeDocumentMoniker": "..\\Agency.API\\Dtos\\DestinationDtos\\DestinationCreateNewOne.cs",
+              "ToolTip": "C:\\Users\\e.markus\\source\\repos\\LABOS\\laboIntermediaire\\Agency.API\\Dtos\\DestinationDtos\\DestinationCreateNewOne.cs",
+              "RelativeToolTip": "..\\Agency.API\\Dtos\\DestinationDtos\\DestinationCreateNewOne.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T13:27:29.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DestinationService.cs",
+              "DocumentMoniker": "C:\\Users\\e.markus\\source\\repos\\LABOS\\laboIntermediaire\\Agency.BLL\\Services\\DestinationService.cs",
+              "RelativeDocumentMoniker": "..\\Agency.BLL\\Services\\DestinationService.cs",
+              "ToolTip": "C:\\Users\\e.markus\\source\\repos\\LABOS\\laboIntermediaire\\Agency.BLL\\Services\\DestinationService.cs",
+              "RelativeToolTip": "..\\Agency.BLL\\Services\\DestinationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T13:27:06.512Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "DestinationController.cs",
+              "DocumentMoniker": "C:\\Users\\e.markus\\source\\repos\\LABOS\\laboIntermediaire\\Agency.API\\Controllers\\DestinationController.cs",
+              "RelativeDocumentMoniker": "..\\Agency.API\\Controllers\\DestinationController.cs",
+              "ToolTip": "C:\\Users\\e.markus\\source\\repos\\LABOS\\laboIntermediaire\\Agency.API\\Controllers\\DestinationController.cs",
+              "RelativeToolTip": "..\\Agency.API\\Controllers\\DestinationController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAGUAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T13:18:59.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IDestinationService.cs",
+              "DocumentMoniker": "C:\\Users\\e.markus\\source\\repos\\LABOS\\laboIntermediaire\\Agency.BLL\\Services\\IDestinationService.cs",
+              "RelativeDocumentMoniker": "..\\Agency.BLL\\Services\\IDestinationService.cs",
+              "ToolTip": "C:\\Users\\e.markus\\source\\repos\\LABOS\\laboIntermediaire\\Agency.BLL\\Services\\IDestinationService.cs",
+              "RelativeToolTip": "..\\Agency.BLL\\Services\\IDestinationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T13:27:18.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\e.markus\\source\\repos\\LABOS\\laboIntermediaire\\Agency.API\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\Agency.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\e.markus\\source\\repos\\LABOS\\laboIntermediaire\\Agency.API\\appsettings.json",
+              "RelativeToolTip": "..\\Agency.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-19T11:03:11.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\formations\\technofutur\\LABO\\INTERMEDIAIRE\\laboIntermediaire\\Agency.API\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\formations\\technofutur\\LABO\\INTERMEDIAIRE\\laboIntermediaire\\Agency.API\\Program.cs",
+              "ToolTip": "C:\\formations\\technofutur\\LABO\\INTERMEDIAIRE\\laboIntermediaire\\Agency.API\\Program.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\formations\\technofutur\\LABO\\INTERMEDIAIRE\\laboIntermediaire\\Agency.API\\Program.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T20:07:00.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\formations\\technofutur\\LABO\\INTERMEDIAIRE\\laboIntermediaire\\Agency.API\\appsettings.json",
-              "RelativeDocumentMoniker": "..\\Agency.API\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\formations\\technofutur\\LABO\\INTERMEDIAIRE\\laboIntermediaire\\Agency.API\\appsettings.json",
               "ToolTip": "C:\\formations\\technofutur\\LABO\\INTERMEDIAIRE\\laboIntermediaire\\Agency.API\\appsettings.json",
-              "RelativeToolTip": "..\\Agency.API\\appsettings.json",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\formations\\technofutur\\LABO\\INTERMEDIAIRE\\laboIntermediaire\\Agency.API\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-12-18T20:08:49.598Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-18T20:08:49.598Z"
             }
           ]
         },

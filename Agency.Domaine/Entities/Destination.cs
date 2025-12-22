@@ -26,7 +26,7 @@ namespace Agency.Domaine.Entities
 
 
         // constructeur pour BLL
-        public Destination(string country, string city, string description,string? imageUrl=null) 
+        public Destination(string country, string city, string description,string? imageUrl) 
         {
             Country = country;
             City = city;
@@ -34,10 +34,10 @@ namespace Agency.Domaine.Entities
             IsEnable = true;
             CreatedAt = DateTime.Now;
             UpdatedAt = null;
-            ImageUrl = imageUrl;
+            ImageUrl = imageUrl ?? "";
         }
         // pour mappage-DAL
-        public Destination(int id,string country, string city, string description, string? imageUrl = null) 
+        public Destination(int id,string country, string city, string description, string? imageUrl) 
         {
             Id = id;
             Country = country;
@@ -46,7 +46,7 @@ namespace Agency.Domaine.Entities
             IsEnable = true;
             CreatedAt = DateTime.Now;
             UpdatedAt = null;
-            ImageUrl = imageUrl;
+            ImageUrl = imageUrl ?? "";
         }
 
         // methode metier

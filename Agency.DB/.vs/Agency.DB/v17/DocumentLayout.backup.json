@@ -1,7 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\formations\\technofutur\\LABO\\INTERMEDIAIRE\\laboIntermediaire\\Agency.DB\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\e.markus\\source\\repos\\LABOS\\laboIntermediaire\\Agency.DB\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3A3E4EA8-E2BE-4878-A546-E31A00921298}|..\\Agency.API\\Agency.API.csproj|c:\\users\\e.markus\\source\\repos\\labos\\labointermediaire\\agency.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\formations\\technofutur\\LABO\\INTERMEDIAIRE\\laboIntermediaire\\Agency.API\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\formations\\technofutur\\LABO\\INTERMEDIAIRE\\laboIntermediaire\\Agency.API\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -9,7 +19,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 266,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +28,42 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\e.markus\\source\\repos\\LABOS\\laboIntermediaire\\Agency.API\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\Agency.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\e.markus\\source\\repos\\LABOS\\laboIntermediaire\\Agency.API\\appsettings.json",
+              "RelativeToolTip": "..\\Agency.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-19T11:03:11.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\formations\\technofutur\\LABO\\INTERMEDIAIRE\\laboIntermediaire\\Agency.API\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\formations\\technofutur\\LABO\\INTERMEDIAIRE\\laboIntermediaire\\Agency.API\\Program.cs",
+              "ToolTip": "C:\\formations\\technofutur\\LABO\\INTERMEDIAIRE\\laboIntermediaire\\Agency.API\\Program.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\formations\\technofutur\\LABO\\INTERMEDIAIRE\\laboIntermediaire\\Agency.API\\Program.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T20:07:00.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\formations\\technofutur\\LABO\\INTERMEDIAIRE\\laboIntermediaire\\Agency.API\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\formations\\technofutur\\LABO\\INTERMEDIAIRE\\laboIntermediaire\\Agency.API\\appsettings.json",
+              "ToolTip": "C:\\formations\\technofutur\\LABO\\INTERMEDIAIRE\\laboIntermediaire\\Agency.API\\appsettings.json",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\formations\\technofutur\\LABO\\INTERMEDIAIRE\\laboIntermediaire\\Agency.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-18T20:08:49.598Z"
             }
           ]
         },
